@@ -2,7 +2,7 @@
 // (useState, useEffect,), useContext, useReducer, useCallback, and more...)
 
 // useState() - A React hook that allows the creation of a stateful variable AND a setter function to update its value in the Vitrual DOM
-// useState() returns [name, setName]
+// useState() returns [name, setName]. We use array destructuring to create a stateful name variable, and setName to update the variable
 
 import MyComponent from "./MyComponent"
 
